@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class leetcode_239 {
     public static void main(String[] args) {
-        int [] arr = {1,2,3,4,0,5,6,9,4,2,-8,1,2};239
+        int [] arr = {1,2,3,4,0,5,6,9,4,2,-8,1,2};
         int k = 3;
         System.out.println(Arrays.toString(res(arr,k)));
     }

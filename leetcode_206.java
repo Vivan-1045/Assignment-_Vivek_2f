@@ -5,7 +5,7 @@ class listNode {
     listNode(int val) { this.val = val; }
     listNode(int val, listNode next) { this.val = val; this.next = next; }
 }
-class Solution {
+class solution {
     public listNode reverseList(listNode head) {
         listNode prev = null;
         listNode curr = head;
@@ -26,7 +26,7 @@ public class leetcode_206 {
         head.next.next.next = new listNode(4);
         head.next.next.next.next = new listNode(5);
 
-        Solution solution = new Solution();
+        solution solution = new solution();
         listNode reversedHead = solution.reverseList(head);
 
         // Print the reversed list

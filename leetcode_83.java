@@ -1,7 +1,8 @@
 
 public class leetcode_83 {
-    public ListNode deleteDuplicates(ListNode head) {
-        ListNode curr = head;
+
+    public listNode deleteDuplicates(listNode head) {
+        listNode curr = head;
         while (curr != null && curr.next != null) {
             if (curr.val == curr.next.val) {
                 curr.next = curr.next.next;
@@ -11,11 +12,4 @@ public class leetcode_83 {
         }
         return head;
     }
-}
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
